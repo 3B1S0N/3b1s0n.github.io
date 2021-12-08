@@ -1,0 +1,86 @@
+
+
+
+/*===========================
+       07.CASE css 
+===========================*/
+
+.services_area{
+    
+}
+
+.single_case{
+    position: relative;
+    
+    & .case_image{
+        position: relative;
+        
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: -webkit-linear-gradient(bottom, rgba(8,115,174,1) 0%, rgba(255,255,255,0) 100%);
+            background: -o-linear-gradient(bottom, rgba(8,115,174,1) 0%, rgba(255,255,255,0) 100%);
+            background: linear-gradient(to top, rgba(8,115,174,1) 0%, rgba(255,255,255,0) 100%);
+        }
+        
+        & img{
+            width: 100%;
+        }
+    }
+    & .case_content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 30px;
+        
+        @media #{$lg}{
+            padding: 15px;
+        }
+        @media #{$xs}{
+            padding: 15px;
+        }
+        
+        & .case_title{
+            & a{
+                color: $white;
+                font-size: 30px;
+                font-weight: 600;
+                
+                @media #{$lg}{
+                    font-size: 20px;
+                }
+                @media #{$xs}{
+                    font-size: 20px;
+                }
+            }
+        }
+        & p{
+            color: $white;
+            margin-top: 15px;
+            
+            @media #{$lg}{
+                font-size: 14px;
+            }
+            @media #{$xs}{
+                font-size: 14px;
+            }
+        }
+        & .more{
+            color: $white;
+            margin-top: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+

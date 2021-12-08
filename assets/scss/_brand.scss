@@ -1,0 +1,41 @@
+
+
+
+/*===========================
+      03.HEADER css 
+===========================*/
+
+.brand_area{
+    
+}
+
+.brand_single{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.single_brand{
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    
+    @media #{$xs}{
+        width: 50%;
+    }
+    @media #{$sm}{
+        width: 33.33%;
+    }
+    
+    & img{
+        width: 50%;
+        &:hover{opacity: 0.5}
+    }
+}
+
+
+
+
+
+
+

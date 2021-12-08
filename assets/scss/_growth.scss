@@ -1,0 +1,47 @@
+
+
+
+/*===========================
+       08.GROWTH css 
+===========================*/
+
+.growth_area{
+    position: relative;
+    z-index: 5;
+    
+    & .growth_shape{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        @include transform(translateY(-50%));
+        z-index: -1;
+        
+        & .shape{
+            max-width: 593px;
+        }
+    }
+}
+
+.growth_content{
+    & p{
+        margin-top: 20px;
+    }
+    & .growth_title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+}
+
+.growth_image{
+    & .image{
+        width: 100%;
+        @include box-shadow (0px 3px 16px 0px rgba($shadow, 0.08));
+    }
+}
+
+
+
+
+
+

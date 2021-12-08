@@ -1,0 +1,72 @@
+
+
+
+/*===========================
+      04.FEATURES css 
+===========================*/
+
+
+.single_features{
+    & .features_icon{
+        & i{
+            width: 110px;
+            height: 110px;
+            line-height: 110px;
+            background: #fff;
+            text-align: center;
+            font-size: 56px;
+            color: $theme-color;
+            @include box-shadow (0px 3px 16px 0px rgba($shadow, 0.08));
+            border-radius: 50%;
+            @include transition(0.3s);
+            
+            @media #{$xs}{
+                width: 90px;
+                height: 90px;
+                line-height: 90px;
+                font-size: 48px;
+            }
+        }
+    }
+    & .features_content{
+        margin-top: 25px;
+        
+        & .features_title{
+            & a{
+                font-size: 25px;
+                font-weight: 600;
+                color: $heading-color;
+                @include transition(0.3s);
+                
+                @media #{$sm}{
+                    font-size: 20px;
+                }
+                
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+        & p{
+            margin-top: 15px;
+        }
+    }
+    
+    &:hover{
+        & .features_icon{
+            & i{
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

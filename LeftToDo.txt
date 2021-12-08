@@ -1,0 +1,30 @@
+LOG IN 
+- Verify Email 
+- Incorrect Password Handling
+- Front End (Colours) 
+
+
+Clean Up
+- Comment Code
+- SQL
+
+
+Services 
+- Service Renewal Front End 
+- Lite Services 
+- Full service descriptions
+
+Admin
+- View Customers 
+- Delete & Update Customers 
+
+Payment 
+- Consider transfer from paymentAction to succesful.php (use of get variable)
+
+
+
+
+Submission 
+- Document 
+- Demo 
+- Hosting 
